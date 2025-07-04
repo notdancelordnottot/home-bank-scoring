@@ -1,4 +1,4 @@
-- name: Create kaggle.json
+name: Create kaggle.json
   run: |
     mkdir -p ~/.kaggle
     echo "{\"username\":\"${{ secrets.KAGGLE_USERNAME }}\", \"key\":\"${{ secrets.KAGGLE_KEY }}\"}" > ~/.kaggle/kaggle.json
